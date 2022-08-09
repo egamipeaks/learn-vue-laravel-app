@@ -6,7 +6,9 @@
         <title>Laravel</title>
     </head>
     <body>
-        <div id="app"></div>
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <div id="app">
+            <example-component></example-component>
+        </div>
+        @vite(['resources/js/app.js'])
     </body>
 </html>

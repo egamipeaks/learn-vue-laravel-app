@@ -2,19 +2,27 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    },
+    "dependencies": {
+        "vue": "^3.2.37",
+        "vue-router": "^4.1.2"
     },
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
         "@vitejs/plugin-vue": "^3.0.1",
         "axios": "^0.27",
         "bootstrap": "^5.1.3",
+        "eslint": "^8.21.0",
         "laravel-vite-plugin": "^0.5.3",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
+        "prettier": "^2.7.1",
         "sass": "^1.32.11",
         "vite": "^3.0.5",
-        "vue": "^3.2.37",
-        "vue-router": "^4.1.3"
+        "@rushstack/eslint-patch": "^1.1.4",
+        "@vue/eslint-config-prettier": "^7.0.0",
+        "eslint-plugin-vue": "^9.3.0"
     }
 }
